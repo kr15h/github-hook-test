@@ -1,12 +1,8 @@
 <?php 
 
-$get_passw = "cloneplease";
-
-if ( $_GET['passw'] == "cloneplease" ) {
 	// clone from git repo
 	$command = 'git pull';
 	$output = shell_exec( $command );
-	echo $output;
-} 
+	echo $output; 
 
 ?>
